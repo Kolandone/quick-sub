@@ -17,8 +17,10 @@ echo -en "\e[1;32mEnter your choice: \e[0m"
 read -r choice
 
 # Execute the appropriate command based on user input
-case $choice in
-    1) bash <(curl -fsSL https://raw.githubusercontent.com/Kolandone/quick-sub/main/sub-location.sh);;
-    2) bash <(curl -fsSL https://raw.githubusercontent.com/Kolandone/quick-sub/main/sub-protocol.sh);;
-    *) echo -e "\e[1;31mInvalid choice\e[0m"; exit 1;;
-esac
+if [ "$user_input" -eq 1 ]; then
+    bash <(curl -fsSL https://raw.githubusercontent.com/Kolandone/workercreator/main/install.sh)
+    elif [ "$user_input" -eq 2 ]; then
+    bash <(curl -fsSL https://raw.githubusercontent.com/Kolandone/quick-sub/main/sub-protocol.sh)
+else
+    echo "Invalid input."
+fi
