@@ -18,7 +18,7 @@ read -r choice
 
 # Execute the appropriate command based on user input
 if [ "$user_input" -eq 1 ]; then
-    bash <(curl -fsSL https://raw.githubusercontent.com/Kolandone/workercreator/main/install.sh)
+    bash <(curl -fsSL https://raw.githubusercontent.com/Kolandone/quick-sub/main/sub-location.sh)
     elif [ "$user_input" -eq 2 ]; then
     bash <(curl -fsSL https://raw.githubusercontent.com/Kolandone/quick-sub/main/sub-protocol.sh)
 else
