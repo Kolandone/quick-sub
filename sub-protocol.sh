@@ -1,14 +1,22 @@
 #!/bin/bash
-clear
-echo -e "\e[1;32mSelect a VPN protocol for subscription:\e[0m"
-echo -e "\e[1;36m1. \e[1;33mall\e[0m"
-echo -e "\e[1;36m2. \e[1;33mVLESS\e[0m"
-echo -e "\e[1;36m3. \e[1;33mVMESS\e[0m"
-echo -e "\e[1;36m4. \e[1;33mSHADOWSOCKS\e[0m"
-echo -e "\e[1;36m5. \e[1;33mTROJAN\e[0m"
-echo -e "\e[1;36m6. \e[1;33mHysteria2\e[0m"
 
-echo -en "\e[1;32mEnter your choice: \e[0m"
+# Define color variables
+green="\e[1;32m"
+cyan="\e[1;36m"
+yellow="\e[1;33m"
+red="\e[1;31m"
+blue="\e[1;34m"
+reset="\e[0m"
+
+echo -e "${green}Select a VPN protocol for subscription:${reset}"
+echo -e "${cyan}1. ${yellow}all${reset}"
+echo -e "${cyan}2. ${yellow}VLESS${reset}"
+echo -e "${cyan}3. ${yellow}VMESS${reset}"
+echo -e "${cyan}4. ${yellow}SHADOWSOCKS${reset}"
+echo -e "${cyan}5. ${yellow}TROJAN${reset}"
+echo -e "${cyan}6. ${yellow}Hysteria2${reset}"
+
+echo -en "${green}Enter your choice: ${reset}"
 read -r user_input
 
 if [ "$user_input" -eq 1 ]; then
@@ -24,8 +32,8 @@ elif [ "$user_input" -eq 5 ]; then
 elif [ "$user_input" -eq 6 ]; then
     subscription="https://raw.githubusercontent.com/itsyebekhe/HiN-VPN/main/subscription/normal/hy2"
 else
-    echo -e "\e[1;31mInvalid input.\e[0m"
+    echo -e "${red}Invalid input.${reset}"
     exit 1
 fi
 
-echo -e "\e[1;32mYour VPN subscription link: \e[1;34m$subscription\e[0m"
+echo -e "${green}Your VPN subscription link: ${blue}$subscription${reset}"
