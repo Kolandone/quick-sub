@@ -28,4 +28,4 @@ else
     exit 1
 fi
 
-echo -e "\e[1;32mYour VPN subscription link: $subscription"
+echo -e "\e[1;32mYour VPN subscription link: \e[1;34m$subscription\e[0m"
