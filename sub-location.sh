@@ -1,14 +1,6 @@
 #!/bin/bash
 
 
-
-echo -e "\e[1;35m*****************************************"
-echo -e "\e[1;35m*\e[0m \e[1;31mY\e[1;32mO\e[1;33mU\e[1;34mT\e[1;35mU\e[1;36mB\e[1;37mE\e[0m : \e[4;34mKOLANDONE\e[0m         \e[1;35m"
-echo -e "\e[1;35m*\e[0m \e[1;31mT\e[1;32mE\e[1;33mL\e[1;34mE\e[1;35mG\e[1;36mR\e[1;37mA\e[1;31mM\e[0m : \e[4;34mKOLANDJS\e[0m         \e[1;35m"
-echo -e "\e[1;35m*\e[0m \e[1;31mG\e[1;32mI\e[1;33mT\e[1;34mH\e[1;35mU\e[1;36mB\e[0m : \e[4;34mhttps://github.com/Kolandone\e[0m \e[1;35m"
-echo -e "\e[1;35m*****************************************"
-echo ""
-
 echo -e "\e[1;32mSelect a country for VPN subscription:\e[0m"
 echo -e "\e[1;36m1 - \e[1;33mBahrain 🇧🇭 BH\e[0m"
 echo -e "\e[1;36m2 - \e[1;33mAustralia 🇦🇺 AU\e[0m"
