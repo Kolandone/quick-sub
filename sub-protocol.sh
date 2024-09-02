@@ -1,5 +1,5 @@
 #!/bin/bash
-
+clear
 echo -e "\e[1;32mSelect a VPN protocol for subscription:\e[0m"
 echo -e "\e[1;36m1. \e[1;33mall\e[0m"
 echo -e "\e[1;36m2. \e[1;33mVLESS\e[0m"
