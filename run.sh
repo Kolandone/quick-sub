@@ -14,7 +14,7 @@ echo -e "\e[1;36m1. \e[1;33mSubscription based on location\e[0m"
 echo -e "\e[1;36m2. \e[1;33mSubscription based on protocol\e[0m"
 
 echo -en "\e[1;32mEnter your choice: \e[0m"
-read -r choice
+read -r user_input
 
 # Execute the appropriate command based on user input
 if [ "$user_input" -eq 1 ]; then
