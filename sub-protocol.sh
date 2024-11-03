@@ -19,15 +19,15 @@ read -r user_input
 if [ "$user_input" -eq 1 ]; then
     subscription="https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/mixed"
 elif [ "$user_input" -eq 2 ]; then
-    subscription="https://raw.githubusercontent.com/itsyebekhe/HiN-VPN/main/subscription/normal/vless"
+    subscription="https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/vless"
 elif [ "$user_input" -eq 3 ]; then
-    subscription="https://raw.githubusercontent.com/itsyebekhe/HiN-VPN/main/subscription/normal/vmess"
+    subscription="https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/vmess"
 elif [ "$user_input" -eq 4 ]; then
-    subscription="https://raw.githubusercontent.com/itsyebekhe/HiN-VPN/main/subscription/normal/ss"
+    subscription="https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/shadowsocks"
 elif [ "$user_input" -eq 5 ]; then
-    subscription="https://raw.githubusercontent.com/itsyebekhe/HiN-VPN/main/subscription/normal/trojan"
+    subscription="https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/trojan"
 elif [ "$user_input" -eq 6 ]; then
-    subscription="https://raw.githubusercontent.com/itsyebekhe/HiN-VPN/main/subscription/normal/hy2"
+    subscription="https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/hysteria"
 else
     echo -e "${red}Invalid input.${reset}"
     exit 1
