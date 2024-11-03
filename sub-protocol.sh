@@ -17,7 +17,7 @@ echo -en "${green}Enter your choice:${reset}"
 read -r user_input
 
 if [ "$user_input" -eq 1 ]; then
-    subscription="https://raw.githubusercontent.com/itsyebekhe/HiN-VPN/main/subscription/normal/mix"
+    subscription="https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/mixed"
 elif [ "$user_input" -eq 2 ]; then
     subscription="https://raw.githubusercontent.com/itsyebekhe/HiN-VPN/main/subscription/normal/vless"
 elif [ "$user_input" -eq 3 ]; then
