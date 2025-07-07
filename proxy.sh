@@ -2,7 +2,7 @@
 
 
 download_mtproto_proxies() {
-    curl -s "https://raw.githubusercontent.com/soroushmirzaei/telegram-proxies-collector/main/proxies"
+    curl -s "https://raw.githubusercontent.com/V2RAYCONFIGSPOOL/TELEGRAM_PROXY_SUB/refs/heads/main/telegram_proxy.txt"
 }
 
 
