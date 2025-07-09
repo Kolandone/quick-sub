@@ -23,15 +23,15 @@ echo -en "${green}Enter your choice:${reset}"
 read -r user_input
 
 if [ "$user_input" -eq 1 ]; then
-    subscription="https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/splitted/mixed"
+    subscription="https://raw.githubusercontent.com/Kolandone/v2raycollector/main/config.txt"
 elif [ "$user_input" -eq 2 ]; then
-    subscription="https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/vless"
+    subscription="https://raw.githubusercontent.com/Kolandone/v2raycollector/main/vless.txt"
 elif [ "$user_input" -eq 3 ]; then
-    subscription="https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/vmess"
+    subscription="https://raw.githubusercontent.com/Kolandone/v2raycollector/main/vmess.txt"
 elif [ "$user_input" -eq 4 ]; then
-    subscription="https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/shadowsocks"
+    subscription="https://raw.githubusercontent.com/Kolandone/v2raycollector/main/ss.txt"
 elif [ "$user_input" -eq 5 ]; then
-    subscription="https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/trojan"
+    subscription="https://raw.githubusercontent.com/Kolandone/v2raycollector/main/trojan.txt"
 elif [ "$user_input" -eq 6 ]; then
     subscription="https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/hysteria"
 elif [ "$user_input" -eq 7 ]; then
