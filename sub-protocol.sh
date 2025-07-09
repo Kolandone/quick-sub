@@ -16,9 +16,8 @@ echo -e "${cyan}6. ${yellow}Hysteria2${reset}"
 echo -e "${cyan}7. ${yellow}Reality${reset}"
 echo -e "${cyan}8. ${yellow}Tuic${reset}"
 echo -e "${cyan}9. ${yellow}Warp${reset}"
-echo -e "${cyan}10. ${yellow}IPv4${reset}"
-echo -e "${cyan}11. ${yellow}IPv6${reset}"
-echo -e "${cyan}12. ${yellow}Juicity${reset}"
+echo -e "${cyan}10. ${yellow}Light${reset}"
+echo -e "${cyan}11. ${yellow}Juicity${reset}"
 echo -en "${green}Enter your choice:${reset}"
 read -r user_input
 
@@ -33,19 +32,17 @@ elif [ "$user_input" -eq 4 ]; then
 elif [ "$user_input" -eq 5 ]; then
     subscription="https://raw.githubusercontent.com/Kolandone/v2raycollector/main/trojan.txt"
 elif [ "$user_input" -eq 6 ]; then
-    subscription="https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/hysteria"
+    subscription="https://raw.githubusercontent.com/Kolandone/v2raycollector/refs/heads/main/hysteria.txt"
 elif [ "$user_input" -eq 7 ]; then
-    subscription="https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/reality"
+    subscription="https://raw.githubusercontent.com/Kolandone/v2raycollector/main/reality.txt"
 elif [ "$user_input" -eq 8 ]; then
-    subscription="https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/tuic"
+    subscription="https://raw.githubusercontent.com/Kolandone/v2raycollector/main/tuic.txt"
 elif [ "$user_input" -eq 9 ]; then
     subscription="https://raw.githubusercontent.com/ircfspace/warpsub/main/export/warp"
 elif [ "$user_input" -eq 10 ]; then
-    subscription="https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/layers/ipv4"
+    subscription="https://raw.githubusercontent.com/Kolandone/v2raycollector/main/config_lite.txt"
 elif [ "$user_input" -eq 11 ]; then
-    subscription="https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/layers/ipv6"
-elif [ "$user_input" -eq 12 ]; then
-    subscription="https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/protocols/juicity"
+    subscription="https://raw.githubusercontent.com/Kolandone/v2raycollector/main/juicity.txt"
 else
     echo -e "${red}Invalid input.${reset}"
     exit 1
