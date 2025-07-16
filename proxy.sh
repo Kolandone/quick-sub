@@ -2,7 +2,7 @@
 
 
 download_mtproto_proxies() {
-    curl -s "https://raw.githubusercontent.com/V2RAYCONFIGSPOOL/TELEGRAM_PROXY_SUB/refs/heads/main/telegram_proxy.txt"
+    curl -s "https://raw.githubusercontent.com/Kolandone/v2raycollector/refs/heads/main/proxy.txt"
 }
 
 
